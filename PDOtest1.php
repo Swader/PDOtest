@@ -1,5 +1,5 @@
 <?php 
-$pdo = new PDO('mysql:host=localhost;db=clicker;charset=utf8', 'root' );
+$pdo = new PDO('mysql:host=localhost;dbname=clicker;charset=utf8', 'root' );
 
 $sql = "SELECT click FROM clickertable";
 
